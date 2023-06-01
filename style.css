@@ -63,8 +63,8 @@ header {
   height: 680px;
   background-color: white;
   margin-top: 8vh;
-  border-bottom-left-radius: 8cap;
-  padding: 0 24px;
+  border-bottom-left-radius: 8em;
+  padding: 0 24px 10px 24px;
   background-image: url(img/header-background.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ header p {
   margin-bottom: 12px;
 }
 
-header a {
+.connect {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1em;
