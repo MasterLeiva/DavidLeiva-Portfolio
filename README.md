@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Portfolio/blob/master/index.html)
+- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/DavidLeiva-Portfolio/blob/navigation-bar/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
