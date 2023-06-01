@@ -56,21 +56,22 @@ nav {
 }
 
 /* Headline Design */
-header {
+.headline {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 680px;
+  height: 600px;
   background-color: white;
   margin-top: 8vh;
   border-bottom-left-radius: 8em;
-  padding: 0 24px 10px 24px;
+  padding: 0 8vw 100px 8vw;
   background-image: url(img/header-background.png);
-  background-position: 50% 50%;
+  background-size: 100%;
+  background-position-y: 20%;
   background-repeat: no-repeat;
 }
 
-header h1 {
+.headline h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
@@ -79,7 +80,7 @@ header h1 {
   margin: 0 0 12px 0;
 }
 
-header p {
+.headline p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -94,15 +95,15 @@ header p {
   font-size: 1em;
   line-height: 24px;
   color: #7f8cff;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
-header ul {
+.headline ul {
   display: flex;
   padding: 0;
   margin: 0;
 }
 
-header ul li {
+.headline ul li {
   padding-right: 18px;
 }
