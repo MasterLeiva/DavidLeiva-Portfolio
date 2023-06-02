@@ -107,3 +107,97 @@ nav {
 .headline ul li {
   padding-right: 18px;
 }
+
+.projects {
+  display: grid;
+  padding: 12vh 8vw;
+  row-gap: 12vh;
+}
+
+.cards {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid #dfe1e6;
+  padding: 1em;
+}
+
+.img-project img {
+  width: 100%;
+  height: auto;
+}
+
+.cards h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 44px;
+  margin: 10px 0 20px 0;
+}
+
+.info-tags {
+  display: flex;
+  align-items: baseline;
+}
+
+.cards h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  line-height: 16px;
+  color: #344563;
+  margin: 0;
+}
+
+.info-tags p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  line-height: 16px;
+  color: #7a869a;
+  margin: 0 0 0 10px;
+}
+
+.info-tags p::before {
+  content: url(img/decoration-circle.png);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.cards-p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #344563;
+  margin: 20px 0;
+}
+
+.tags {
+  display: flex;
+  margin: 16px 0;
+  padding: 0;
+}
+
+.tags a {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 16px;
+  color: var(--blue);
+  margin-right: 8px;
+}
+
+.main-buttons {
+  padding: 14px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 24px;
+  color: #396df2;
+  margin: 14px 0 18px 0;
+}
