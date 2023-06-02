@@ -42,10 +42,7 @@
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
+   N/A
 </details>
 
 ### Key Features <a name="key-features"></a>
