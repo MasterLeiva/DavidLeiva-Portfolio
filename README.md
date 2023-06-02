@@ -42,10 +42,7 @@
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
+   N/A
 </details>
 
 ### Key Features <a name="key-features"></a>
@@ -63,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Portfolio/blob/master/index.html)
+- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/DavidLeiva-Portfolio/blob/navigation-bar/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +120,7 @@ N/A
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MasterLeiva/DavidLeiva-Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
