@@ -98,16 +98,17 @@ nav {
   margin-bottom: 16px;
 }
 
-.headline ul {
+.social-links {
   display: flex;
   padding: 0;
   margin: 0;
 }
 
-.headline ul li {
+.social-links li {
   padding-right: 18px;
 }
 
+/* Works Section Design */
 .projects {
   display: grid;
   padding: 12vh 8vw;
@@ -190,14 +191,117 @@ nav {
   margin-right: 8px;
 }
 
+.tags a:hover {
+  background-color: #d6d6ff;
+}
+
 .main-buttons {
   padding: 14px;
-  border: 1px solid #396df2;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 24px;
   color: #396df2;
   margin: 14px 0 18px 0;
+  width: fit-content;
+}
+
+.main-buttons:hover {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.main-buttons:active {
+  background-color: #2230d2;
+  color: white;
+  border-color: #2230d2;
+}
+
+/* About Myself Section Design */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top-right-radius: 8em;
+  padding: 10vh 8vw;
+}
+
+.about-myself h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.about-myself p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #344563;
+  margin: 0 0 12px 0;
+}
+
+.about-myself .social-links {
+  padding-left: 18px;
+}
+
+.about-myself-ul {
+  padding: 9vh 0 0 0;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 24px;
+  color: black;
+  padding: 0 42px 23px 12px;
+  border-bottom: 1px solid #dfe1e6;
+  margin-top: 24px;
+}
+
+#open {
+  border-bottom: none;
+}
+
+.languages-ul {
+  padding-left: 12px;
+}
+
+.languages {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 9px 12px;
+  border-radius: 0.7em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  color: #253858;
+}
+
+#js::before {
+  content: url(img/javascript-icon.png);
+  padding-right: 16px;
+}
+
+#html::before {
+  content: url(img/html-icon.png);
+  padding-right: 16px;
+}
+
+#css::before {
+  content: url(img/css-icon.png);
+  padding-right: 16px;
 }
