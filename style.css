@@ -191,9 +191,13 @@ nav {
   margin-right: 8px;
 }
 
+.tags a:hover {
+  background-color: #d6d6ff;
+}
+
 .main-buttons {
   padding: 14px;
-  border: 1px solid #396df2;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -202,6 +206,18 @@ nav {
   color: #396df2;
   margin: 14px 0 18px 0;
   width: fit-content;
+}
+
+.main-buttons:hover {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.main-buttons:active {
+  background-color: #2230d2;
+  color: white;
+  border-color: #2230d2;
 }
 
 /* About Myself Section Design */
