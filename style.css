@@ -63,7 +63,6 @@ nav {
   height: 600px;
   background-color: white;
   margin-top: 8vh;
-  border-bottom-left-radius: 8em;
   padding: 0 8vw 100px 8vw;
   background-image: url(img/header-background.png);
   background-size: 100%;
@@ -226,8 +225,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  border-top-right-radius: 8em;
   padding: 10vh 8vw;
+  border-radius: 1em;
 }
 
 .about-myself h2 {
