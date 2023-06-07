@@ -99,13 +99,15 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-> This is a personal project.
-
 👤 **David Leiva**
 
 - GitHub: [@MasterLeiva](https://github.com/MasterLeiva)
 - Twitter: [@DavidLeiva111](https://twitter.com/DavidLeiva111)
 - LinkedIn: [@1259221-d-leiva](https://linkedin.com/in/1259221-d-leiva)
+
+👤 **Obiba Kweku Adoma**
+
+- GitHub: [@MasterLeiva](https://github.com/obibaadoma)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
