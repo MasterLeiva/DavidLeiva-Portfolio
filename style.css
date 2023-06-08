@@ -3,6 +3,10 @@
   --blue: #6070ff;
 }
 
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   margin: 0;
   background-color: #e5e5e5;
@@ -44,7 +48,6 @@ nav {
 }
 
 .logo a {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -72,7 +75,6 @@ nav {
 }
 
 .headline h1 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
   line-height: 52px;
@@ -81,7 +83,6 @@ nav {
 }
 
 .headline p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -90,7 +91,6 @@ nav {
 }
 
 .connect {
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1em;
   line-height: 24px;
@@ -128,7 +128,6 @@ nav {
 }
 
 .cards h2 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2em;
   line-height: 44px;
@@ -141,7 +140,6 @@ nav {
 }
 
 .cards h3 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 0.9em;
   line-height: 16px;
@@ -150,7 +148,6 @@ nav {
 }
 
 .info-tags p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 0.9em;
   line-height: 16px;
@@ -165,7 +162,6 @@ nav {
 }
 
 .cards-p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -183,7 +179,6 @@ nav {
   padding: 4px 12px;
   background-color: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 0.8em;
   line-height: 16px;
@@ -199,7 +194,6 @@ nav {
   padding: 14px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1em;
   line-height: 24px;
@@ -230,8 +224,13 @@ nav {
   padding: 10vh 8vw;
 }
 
+.content-about-myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-myself h2 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
   line-height: 52px;
@@ -240,7 +239,6 @@ nav {
 }
 
 .about-myself p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -259,7 +257,6 @@ nav {
 .dropdowns {
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.25em;
   line-height: 24px;
@@ -284,7 +281,6 @@ nav {
   margin-bottom: 12px;
   padding: 9px 12px;
   border-radius: 0.7em;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1em;
   line-height: 20px;
@@ -327,7 +323,6 @@ nav {
 }
 
 .contact-container h2 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
   line-height: 52px;
@@ -336,7 +331,6 @@ nav {
 }
 
 .contact-container p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 28px;
@@ -365,7 +359,6 @@ form {
   margin-bottom: 20px;
   padding: 0 15px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 20px;
@@ -380,7 +373,6 @@ form {
   margin-bottom: 22px;
   padding: 15px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 20px;
@@ -388,7 +380,6 @@ form {
 }
 
 .input-container::placeholder {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -396,7 +387,6 @@ form {
 }
 
 .input-container-2::placeholder {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
@@ -407,7 +397,6 @@ form {
   align-self: self-start;
   background-color: white;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1em;
   line-height: 24px;
@@ -426,4 +415,144 @@ form {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
+}
+
+/* Desktop Support */
+@media (min-width: 768px) {
+  /* Navigation Bar */
+  nav {
+    height: 10vh;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 10.77vw;
+  }
+
+  .links {
+    display: flex;
+    margin: 0 10.77vw;
+    padding: 0;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+
+  .links li {
+    margin-left: 2.22vw;
+  }
+
+  /* Headline */
+  .headline {
+    background-image: url(img/background-headline.png);
+    background-size: contain;
+    background-position: center;
+    margin-top: 10vh;
+    padding: 0 18vw 14vw 18vw;
+  }
+
+  .headline p {
+    max-width: 63.88vw;
+  }
+
+  /* Projects Section */
+  .projects {
+    padding: 10vw;
+    row-gap: 10vw;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .img-project {
+    align-self: center;
+  }
+
+  .img-project img {
+    width: calc(35vw - 1em);
+  }
+
+  .content {
+    margin: 0 3.6vw;
+  }
+
+  .content h2 {
+    padding-top: 12px;
+  }
+
+  .info-tags {
+    padding-bottom: 12px;
+  }
+
+  .right-image {
+    flex-direction: row-reverse;
+  }
+
+  .right-image .content {
+    margin: 0 2.2vw;
+  }
+
+  /* About myself */
+  .about-myself {
+    flex-direction: row;
+    justify-content: start;
+    padding: 7vw 10vw;
+  }
+
+  .content-about-myself {
+    width: 65%;
+    min-width: 295px;
+    margin-right: 1.5em;
+  }
+
+  .about-myself-ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .languages-ul {
+    display: flex;
+  }
+
+  .languages {
+    width: 87px;
+    margin-right: 0.6em;
+    padding-top: 75px;
+    justify-content: center;
+  }
+
+  #js::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
+  #html::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
+  #css::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
+  /* Contact Form */
+  .contact-section {
+    padding-top: 10vh;
+  }
+
+  .contact-container {
+    padding: 10vw 32vw;
+    background-image: url(img/background-desktop-contact-form.png);
+    background-size: contain;
+    background-position: center;
+    min-width: 420px;
+  }
 }
