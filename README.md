@@ -54,7 +54,7 @@
 - **HTML & CSS**
 - **Flexbox**
 - **Grid**
-- **Mobile Layout**
+- **Responsive Web Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,8 +112,8 @@ N/A
 ## 🔭 Future Features <a name="future-features"></a>
 
 > More coming soon:
-- [ ] **Desktop Support**
-- [ ] **Contact Me Section**
+- [ ] **Menu Functions**
+- [ ] **Hover animations**
 - [ ] **Javascript Integration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
