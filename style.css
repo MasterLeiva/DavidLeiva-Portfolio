@@ -290,6 +290,11 @@ nav {
   font-size: 1em;
   line-height: 20px;
   color: #253858;
+  transition: scale 100ms linear;
+}
+
+.languages:hover {
+  scale: 1.1;
 }
 
 #js::before {
