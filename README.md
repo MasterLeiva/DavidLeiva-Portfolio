@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/DavidLeiva-Portfolio/blob/navigation-bar/index.html)
+- [Live Demo Link](https://masterleiva.github.io/DavidLeiva-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ To run tests, go to the github page of your repository and then go to actions, t
 
 ### Deployment
 
-N/A
+You can access the website [here](https://masterleiva.github.io/DavidLeiva-Portfolio/)
 
 ## 👥 Authors <a name="authors"></a>
 
