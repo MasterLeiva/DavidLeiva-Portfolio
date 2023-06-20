@@ -105,13 +105,16 @@ You can access the website [here](https://masterleiva.github.io/DavidLeiva-Portf
 - Twitter: [@DavidLeiva111](https://twitter.com/DavidLeiva111)
 - LinkedIn: [@1259221-d-leiva](https://linkedin.com/in/1259221-d-leiva)
 
+
 👤 **Obiba Kweku Adoma**
 
 - GitHub: [@MasterLeiva](https://github.com/obibaadoma)
 
+
 👤 **Yuliana Rodrígez**
 
 - GitHub: [@MasterLeiva](https://github.com/Yulianav09)
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
