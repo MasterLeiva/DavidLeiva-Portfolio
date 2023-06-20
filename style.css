@@ -67,6 +67,51 @@ nav {
   transform: rotate(90deg);
 }
 
+/* Menu Mobile Window */
+.links-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 32px;
+  width: calc(100% - 65px);
+  backdrop-filter: blur(5px);
+  background: rgba(44, 65, 255, 0.75);
+}
+
+.links-menu li {
+  margin-bottom: 40px;
+}
+
+.links-menu li a {
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 44px;
+  color: white;
+}
+
+.links-menu li a:hover {
+  color: #1125ff;
+}
+
+.close-button {
+  display: flex;
+  justify-content: end;
+}
+
+.x-button {
+  width: 30px;
+  height: auto;
+  transition: transform 200ms linear;
+}
+
+.x-button:hover {
+  transform: rotate(90deg);
+}
+
 /* Headline Design */
 .headline {
   display: flex;
@@ -441,51 +486,6 @@ form {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
-}
-
-/* Menu Mobile Window */
-.links-menu {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding: 32px;
-  width: calc(100% - 65px);
-  backdrop-filter: blur(5px);
-  background: rgba(44, 65, 255, 0.75);
-}
-
-.links-menu li {
-  margin-bottom: 40px;
-}
-
-.links-menu li a {
-  font-weight: 600;
-  font-size: 2em;
-  line-height: 44px;
-  color: white;
-}
-
-.links-menu li a:hover {
-  color: #1125ff;
-}
-
-.close-button {
-  display: flex;
-  justify-content: end;
-}
-
-.x-button {
-  width: 30px;
-  height: auto;
-  transition: transform 200ms linear;
-}
-
-.x-button:hover {
-  transform: rotate(90deg);
 }
 
 /* Desktop Support */
