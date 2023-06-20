@@ -31,6 +31,21 @@ ul {
   display: none;
 }
 
+.tags a {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 16px;
+  color: var(--blue);
+  margin-right: 8px;
+}
+
+.tags a:hover {
+  background-color: #d6d6ff;
+}
+
 /* Navbar Design */
 nav {
   display: flex;
@@ -232,21 +247,6 @@ nav {
 
 .tags li {
   margin-bottom: 8px;
-}
-
-.tags a {
-  padding: 4px 12px;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 0.8em;
-  line-height: 16px;
-  color: var(--blue);
-  margin-right: 8px;
-}
-
-.tags a:hover {
-  background-color: #d6d6ff;
 }
 
 .main-buttons {
