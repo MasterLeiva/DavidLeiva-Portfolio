@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const mainlinks = document.querySelector('#links-nav');
 const listpopup = document.querySelectorAll('.menu-list');
-const sections = document.querySelector('.headline');
 const closebutton = document.querySelector('.x-button');
 
 function openwindow() {
@@ -14,3 +13,7 @@ function closewindow() {
 
 hamburger.addEventListener('click', openwindow);
 closebutton.addEventListener('click', closewindow);
+
+for (let i = 0; i < listpopup.length; i +=1) {
+  listpopup[i].addEventListener('click', closewindow);
+}
