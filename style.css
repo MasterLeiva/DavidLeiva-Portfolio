@@ -42,10 +42,6 @@ ul {
   margin-right: 8px;
 }
 
-.tags a:hover {
-  background-color: #d6d6ff;
-}
-
 /* Navbar Design */
 nav {
   display: flex;
@@ -106,6 +102,10 @@ nav {
   font-size: 2em;
   line-height: 44px;
   color: white;
+}
+
+.tags a:hover {
+  background-color: #d6d6ff;
 }
 
 .links-menu li a:hover {
