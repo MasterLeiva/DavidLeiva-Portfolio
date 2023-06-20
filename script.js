@@ -14,6 +14,6 @@ function closewindow() {
 hamburger.addEventListener('click', openwindow);
 closebutton.addEventListener('click', closewindow);
 
-for (let i = 0; i < listpopup.length; i +=1) {
+for (let i = 0; i < listpopup.length; i++) {
   listpopup[i].addEventListener('click', closewindow);
 }
