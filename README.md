@@ -109,6 +109,10 @@ You can access the website [here](https://masterleiva.github.io/DavidLeiva-Portf
 
 - GitHub: [@MasterLeiva](https://github.com/obibaadoma)
 
+👤 **Yuliana Rodrígez**
+
+- GitHub: [@MasterLeiva](https://github.com/Yulianav09)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > More coming soon:
