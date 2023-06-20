@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+.hide {
+  display: none;
+}
+
 /* Navbar Design */
 nav {
   display: flex;
@@ -43,6 +47,50 @@ nav {
   display: none;
 }
 
+.links-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 32px;
+  width: calc(100% - 65px);
+  backdrop-filter: blur(5px);
+  background: rgba(44, 65, 255, 0.75);
+}
+
+.links-menu li {
+  margin-bottom: 40px;
+}
+
+.links-menu li a {
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 44px;
+  color: white;
+}
+
+.links-menu li a:hover {
+  color: #1125ff;
+}
+
+.close-button {
+  display: flex;
+  justify-content: end;
+}
+
+.x-button {
+  width: 30px;
+  height: auto;
+  transition: transform 200ms linear;
+}
+
+.x-button:hover {
+  transform: rotate(90deg);
+}
+
 .logo {
   margin-left: 24px;
 }
@@ -56,6 +104,11 @@ nav {
 
 .hamburger {
   margin-right: 2vw;
+  transition: transform 200ms linear;
+}
+
+.hamburger:hover {
+  transform: rotate(90deg);
 }
 
 /* Headline Design */
