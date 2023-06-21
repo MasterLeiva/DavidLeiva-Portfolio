@@ -37,12 +37,36 @@ const projects = [
 
   {
     name: 'Multi-Post Stories',
-    other: 'Facebook',
+    other: 'FACEBOOK',
     role: 'Full Stack Dev',
     year: 2023,
     img: 'img/desktop-project-2.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on rails'],
+    liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
+  },
+
+  {
+    name: 'Facebook 360',
+    other: 'FACEBOOK',
+    role: 'Back Stack Dev',
+    year: 2015,
+    img: 'img/desktop-project-3.png',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
+  },
+
+  {
+    name: 'Uber Navigation',
+    other: 'UBER',
+    role: 'Lead Developer',
+    year: 2018,
+    img: 'img/desktop-project-4.png',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap', "Ruby on rails"],
     liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
     source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
   }
@@ -90,6 +114,6 @@ function displayWindow(num) {
   closingPopup.addEventListener('click', closeWindow);
 }
 
-for (var m = 0; m < mainButtons.length; m += 1){
+for (let m = 0; m < mainButtons.length; m += 1){
   mainButtons[m].addEventListener('click', () => displayWindow(m));
 }
