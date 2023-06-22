@@ -174,3 +174,8 @@ function checkInput() {
     small.classList.remove('displayError');
   }
 }
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  checkInput();
+});
