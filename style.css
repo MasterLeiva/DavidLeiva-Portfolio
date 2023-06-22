@@ -355,8 +355,24 @@ nav {
 
 .icon-button-popup {
   width: 24px;
-  height: auto;
+  height: 24px;
   margin-left: 5px;
+}
+
+#svg-live {
+  fill: var(--blue);
+}
+
+#svg-source {
+  fill: var(--blue);
+}
+
+#live-button:hover > #svg-live {
+  fill: white;
+}
+
+#source-button:hover > #svg-source {
+  fill: white;
 }
 
 /* About Myself Section Design */
@@ -656,6 +672,33 @@ form {
 
   .right-image .content {
     margin: 0 2.2vw;
+  }
+
+  /* PopUp Window */
+  .card-popup {
+    width: 81vw;
+    max-width: none;
+    overflow-y: auto;
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 1fr;
+    column-gap: 24px;
+    overflow-y: visible;
+  }
+
+  .links-container-popup {
+    margin-top: 10px;
+  }
+
+  .card-popup .main-buttons {
+    padding: 10px;
+  }
+
+  .links-container-popup .tags {
+    padding-right: 14px;
   }
 
   /* About myself */
