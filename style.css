@@ -592,6 +592,7 @@ form {
   color: var(--blue);
   padding: 12px 16px;
   border: 1px solid var(--blue);
+  margin-bottom: 12px;
 }
 
 .button-form:hover {
@@ -604,6 +605,16 @@ form {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
+}
+
+small {
+  color: rgba(145, 18, 18, 0.844);
+  align-self: flex-start;
+  visibility: hidden;
+}
+
+.displayError {
+  visibility: visible;
 }
 
 /* Desktop Support */
@@ -794,6 +805,10 @@ form {
   }
 
   .button-form {
+    align-self: center;
+  }
+
+  #contact-form small {
     align-self: center;
   }
 }

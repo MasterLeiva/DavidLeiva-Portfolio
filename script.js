@@ -160,3 +160,22 @@ function displayWindow(num) {
 for (let m = 0; m < mainButtons.length; m += 1) {
   mainButtons[m].addEventListener('click', () => displayWindow(m));
 }
+
+/* Contact validation */
+const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const small = document.getElementById('small');
+
+function checkInput() {
+  const emailValue = email.value.trim();
+  if (emailValue !== emailValue.toLowerCase()) {
+    small.classList.add('displayError');
+  } else {
+    small.classList.remove('displayError');
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkInput();
+});
