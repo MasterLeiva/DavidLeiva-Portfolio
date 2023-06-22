@@ -302,10 +302,19 @@ nav {
 
 .card-popup h4 {
   margin: 0;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 1em;
+  color: #344563;
 }
 
 .card-popup h2 {
   margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 1.9em;
+  color: #091e42;
 }
 
 #closing-popup {
@@ -325,6 +334,13 @@ nav {
   margin-top: 20px;
   justify-content: center;
   padding-bottom: 5px;
+  max-height: 680px;
+}
+
+.card-popup .img-project img {
+  width: 100%;
+  object-fit: cover; 
+  overflow: hidden;
 }
 
 .popup-content {
@@ -679,6 +695,11 @@ form {
     width: 81vw;
     max-width: none;
     overflow-y: auto;
+  }
+
+  .card-popup h2 {
+    line-height: 52px;
+    font-size: 2.4em;
   }
 
   .card-popup .img-project {
