@@ -32,7 +32,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap'],
     liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
-    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio',
   },
 
   {
@@ -44,7 +44,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on rails'],
     liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
-    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio',
   },
 
   {
@@ -56,7 +56,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
-    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio',
   },
 
   {
@@ -66,14 +66,14 @@ const projects = [
     year: 2018,
     img: 'img/desktop-project-4.png',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap', "Ruby on rails"],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Bootstrap', 'Ruby on rails'],
     liveLink: 'https://masterleiva.github.io/DavidLeiva-Portfolio/',
-    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio'
-  }
-]
+    source: 'https://github.com/MasterLeiva/DavidLeiva-Portfolio',
+  },
+];
 
 function displayWindow(num) {
-  var content = `
+  let content = `
   <div class="card-popup" id="dynamic-content">
     <h2>${projects[num].name} <button id="closing-popup"><img class="closing-popup-img" src="img/close-popup.png"></button></h2>
     <div class="info-tags">
@@ -123,6 +123,6 @@ function displayWindow(num) {
   closingPopup.addEventListener('click', closeWindow);
 }
 
-for (let m = 0; m < mainButtons.length; m += 1){
+for (let m = 0; m < mainButtons.length; m += 1) {
   mainButtons[m].addEventListener('click', () => displayWindow(m));
 }
