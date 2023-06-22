@@ -273,6 +273,124 @@ nav {
   border-color: #2230d2;
 }
 
+/* PopUp Window */
+.popup-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(78, 81, 84, 0.2);
+}
+
+.card-popup {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid #dfe1e6;
+  padding: 1em;
+  height: 90vh;
+  width: 83vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+}
+
+.card-popup h4 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 1em;
+  color: #344563;
+}
+
+.card-popup h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 1.9em;
+  color: #091e42;
+}
+
+#closing-popup {
+  float: right;
+}
+
+.closing-popup-img {
+  transition: transform 180ms linear;
+}
+
+.closing-popup-img:hover {
+  transform: rotate(90deg);
+}
+
+.card-popup .img-project {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  padding-bottom: 5px;
+  max-height: 680px;
+}
+
+.card-popup .img-project img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ebecf0;
+}
+
+.buttons-popup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-popup .main-buttons {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button-popup {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+#svg-live {
+  fill: var(--blue);
+}
+
+#svg-source {
+  fill: var(--blue);
+}
+
+#live-button:hover > #svg-live {
+  fill: white;
+}
+
+#source-button:hover > #svg-source {
+  fill: white;
+}
+
 /* About Myself Section Design */
 .about-myself {
   display: flex;
@@ -510,10 +628,15 @@ form {
     font-weight: 500;
     font-size: 0.9em;
     line-height: 20px;
+    align-items: center;
   }
 
   .links li {
     margin-left: 2.22vw;
+  }
+
+  .links li a {
+    color: var(--blue);
   }
 
   /* Headline */
@@ -565,6 +688,46 @@ form {
 
   .right-image .content {
     margin: 0 2.2vw;
+  }
+
+  /* PopUp Window */
+  .card-popup {
+    width: 81vw;
+    max-width: none;
+    overflow-y: auto;
+  }
+
+  .card-popup h2 {
+    line-height: 52px;
+    font-size: 2.4em;
+  }
+
+  .card-popup .img-project {
+    width: 99%;
+  }
+
+  .card-popup img {
+    width: 100%;
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 1fr;
+    column-gap: 24px;
+    overflow-y: visible;
+  }
+
+  .links-container-popup {
+    margin-top: 10px;
+  }
+
+  .card-popup .main-buttons {
+    padding: 10px;
+  }
+
+  .links-container-popup .tags {
+    padding-right: 14px;
   }
 
   /* About myself */
