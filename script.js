@@ -73,7 +73,7 @@ const projects = [
 ];
 
 function displayWindow(num) {
-  let content = `
+  const content = `
   <div class="card-popup" id="dynamic-content">
     <h2>${projects[num].name} <button id="closing-popup"><img class="closing-popup-img" src="img/close-popup.png"></button></h2>
     <div class="info-tags">

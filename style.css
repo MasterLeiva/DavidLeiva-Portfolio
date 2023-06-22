@@ -681,6 +681,14 @@ form {
     overflow-y: auto;
   }
 
+  .card-popup .img-project {
+    width: 99%;
+  }
+
+  .card-popup img {
+    width: 100%;
+  }
+
   .popup-content {
     display: grid;
     grid-template-columns: 1fr 300px;
