@@ -607,7 +607,7 @@ form {
   border-color: #2230d2;
 }
 
-#contact-form small {
+small {
   color: rgba(145, 18, 18, 0.844);
   align-self: flex-start;
   visibility: hidden;

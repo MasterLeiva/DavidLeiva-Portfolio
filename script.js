@@ -168,6 +168,7 @@ const small = document.getElementById('small');
 
 function checkInput() {
   const emailValue = email.value.trim();
+  
   if (emailValue !== emailValue.toLowerCase()) {
     small.classList.add('displayError');
   } else {
