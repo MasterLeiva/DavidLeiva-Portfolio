@@ -188,7 +188,7 @@ form.addEventListener('submit', (e) => {
 const nameForm = document.getElementById('fullname');
 const commentForm = document.getElementById('comment');
 
-form.addEventListener('submit', function() {
+form.addEventListener('submit', () => {
   let name = nameForm.value;
   let comment = commentForm.value;
   let emailaddress = email.value; 
@@ -198,7 +198,7 @@ form.addEventListener('submit', function() {
   localStorage.setItem('comment', comment);
 });
 
-window.addEventListener('load', function() {
+window.addEventListener('load', () => {
   let savedName = localStorage.getItem('name');
   let savedEmail = localStorage.getItem('email');
   let savedComment = localStorage.getItem('comment');
