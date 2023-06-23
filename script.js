@@ -168,13 +168,14 @@ const small = document.getElementById('small');
 
 function checkInput() {
   const emailValue = email.value.trim();
+
   if (emailValue !== emailValue.toLowerCase()) {
     small.classList.add('displayError');
     return false;
-  } else {
-    small.classList.remove('displayError');
-    return true;
   }
+
+  small.classList.remove('displayError');
+  return true;
 }
 
 form.addEventListener('submit', (e) => {
