@@ -197,3 +197,13 @@ form.addEventListener('submit', function() {
   localStorage.setItem('email', emailaddress);
   localStorage.setItem('comment', comment);
 });
+
+window.addEventListener('load', function() {
+  let savedName = localStorage.getItem('name');
+  let savedEmail = localStorage.getItem('email');
+  let savedComment = localStorage.getItem('comment');
+
+  nameForm.value = savedName;
+  email.value = savedEmail;
+  commentForm.value = savedComment;
+});
