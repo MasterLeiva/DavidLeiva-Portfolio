@@ -168,13 +168,14 @@ const small = document.getElementById('small');
 
 function checkInput() {
   const emailValue = email.value.trim();
+
   if (emailValue !== emailValue.toLowerCase()) {
     small.classList.add('displayError');
     return false;
-  } else {
-    small.classList.remove('displayError');
-    return true;
   }
+
+  small.classList.remove('displayError');
+  return true;
 }
 
 form.addEventListener('submit', (e) => {
@@ -182,4 +183,28 @@ form.addEventListener('submit', (e) => {
   if (checkInput()) {
     form.submit();
   }
+});
+
+/* Preserve Form Data */
+const nameForm = document.getElementById('fullname');
+const commentForm = document.getElementById('comment');
+
+form.addEventListener('submit', () => {
+  const name = nameForm.value;
+  const comment = commentForm.value;
+  const emailaddress = email.value;
+
+  localStorage.setItem('name', name);
+  localStorage.setItem('email', emailaddress);
+  localStorage.setItem('comment', comment);
+});
+
+window.addEventListener('load', () => {
+  const savedName = localStorage.getItem('name');
+  const savedEmail = localStorage.getItem('email');
+  const savedComment = localStorage.getItem('comment');
+
+  nameForm.value = savedName;
+  email.value = savedEmail;
+  commentForm.value = savedComment;
 });
