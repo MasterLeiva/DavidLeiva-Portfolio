@@ -98,7 +98,7 @@ for (let j = 0; j < projects.length; j += 1) {
         <button class="main-buttons projectButtons">See Project</button>
       </div>
     </div>
-  ;
+  `;
   cardsContainer.innerHTML += cardContent;
 }
 
