@@ -183,3 +183,17 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+/* Preserve Form Data */
+const nameForm = document.getElementById('fullname');
+const commentForm = document.getElementById('comment');
+
+form.addEventListener('submit', function() {
+  let name = nameForm.value;
+  let comment = commentForm.value;
+  let emailaddress = email.value; 
+
+  localStorage.setItem('name', name);
+  localStorage.setItem('email', emailaddress);
+  localStorage.setItem('comment', comment);
+});
